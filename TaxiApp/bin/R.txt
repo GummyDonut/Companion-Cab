@@ -425,8 +425,11 @@ int drawable ic_plusone_standard_off_client 0x7f020050
 int drawable ic_plusone_tall_off_client 0x7f020051
 int drawable powered_by_google_dark 0x7f020052
 int drawable powered_by_google_light 0x7f020053
+<<<<<<< HEAD
 int id DoBReg 0x7f080064
 int id Success 0x7f080053
+=======
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id action_bar 0x7f080042
 int id action_bar_activity_content 0x7f080029
 int id action_bar_container 0x7f080041
@@ -440,6 +443,7 @@ int id action_menu_presenter 0x7f08002c
 int id action_mode_bar 0x7f08003f
 int id action_mode_bar_stub 0x7f08003e
 int id action_mode_close_button 0x7f080031
+<<<<<<< HEAD
 int id action_settings 0x7f08006f
 int id activity_chooser_view_content 0x7f080032
 int id ageError 0x7f080068
@@ -448,19 +452,31 @@ int id beginning 0x7f080023
 int id book_now 0x7f080010
 int id button1 0x7f080058
 int id button2 0x7f080061
+=======
+int id action_settings 0x7f080051
+int id activity_chooser_view_content 0x7f080032
+int id always 0x7f08001e
+int id beginning 0x7f080023
+int id book_now 0x7f080010
+int id button1 0x7f080050
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id buyButton 0x7f08000a
 int id buy_now 0x7f08000f
 int id buy_with_google 0x7f08000e
 int id checkbox 0x7f08003a
 int id classic 0x7f080011
 int id collapseActionView 0x7f080020
+<<<<<<< HEAD
 int id cur 0x7f08005c
+=======
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id decor_content_parent 0x7f080040
 int id default_activity_button 0x7f080035
 int id dialog 0x7f080021
 int id disableHome 0x7f08001b
 int id dropdown 0x7f080022
 int id edit_query 0x7f080044
+<<<<<<< HEAD
 int id editprofilebutton 0x7f08005e
 int id emailError 0x7f080069
 int id emailReg 0x7f080067
@@ -471,6 +487,11 @@ int id expanded_menu 0x7f080039
 int id failedLogin 0x7f080052
 int id firstNameReg 0x7f080065
 int id flag 0x7f08005a
+=======
+int id end 0x7f080025
+int id expand_activities_button 0x7f080033
+int id expanded_menu 0x7f080039
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id grayscale 0x7f080012
 int id holo_dark 0x7f080005
 int id holo_light 0x7f080006
@@ -480,6 +501,7 @@ int id hybrid 0x7f080004
 int id icon 0x7f080037
 int id ifRoom 0x7f08001d
 int id image 0x7f080034
+<<<<<<< HEAD
 int id lastNameReg 0x7f080066
 int id listMode 0x7f080014
 int id list_item 0x7f080036
@@ -497,13 +519,26 @@ int id none 0x7f080000
 int id normal 0x7f080001
 int id passError 0x7f08006b
 int id passwrdTextField 0x7f080055
+=======
+int id listMode 0x7f080014
+int id list_item 0x7f080036
+int id match_parent 0x7f08000c
+int id middle 0x7f080024
+int id monochrome 0x7f080013
+int id never 0x7f08001c
+int id none 0x7f080000
+int id normal 0x7f080001
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id production 0x7f080007
 int id progress_circular 0x7f08002d
 int id progress_horizontal 0x7f08002e
 int id radio 0x7f08003c
+<<<<<<< HEAD
 int id regBtn 0x7f080054
 int id regPassword 0x7f080063
 int id regSubmitBtn 0x7f080062
+=======
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id sandbox 0x7f080008
 int id satellite 0x7f080002
 int id search_badge 0x7f080046
@@ -526,6 +561,7 @@ int id strict_sandbox 0x7f080009
 int id submit_area 0x7f08004d
 int id tabMode 0x7f080015
 int id terrain 0x7f080003
+<<<<<<< HEAD
 int id textView1 0x7f080050
 int id textView2 0x7f080059
 int id textview 0x7f08005f
@@ -535,6 +571,11 @@ int id txt 0x7f08005b
 int id up 0x7f080027
 int id useLogo 0x7f080016
 int id viewProfileBtn 0x7f08006d
+=======
+int id title 0x7f080038
+int id up 0x7f080027
+int id useLogo 0x7f080016
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int id withText 0x7f08001f
 int id wrap_content 0x7f08000d
 int integer abc_max_action_buttons 0x7f090001
@@ -562,6 +603,7 @@ int layout abc_screen_toolbar 0x7f030013
 int layout abc_search_dropdown_item_icons_2line 0x7f030014
 int layout abc_search_view 0x7f030015
 int layout abc_simple_dropdown_hint 0x7f030016
+<<<<<<< HEAD
 int layout acceptnotificationpage 0x7f030017
 int layout activity_display_message 0x7f030018
 int layout activity_edit_profile_test 0x7f030019
@@ -580,6 +622,11 @@ int menu display_message 0x7f0c0000
 int menu edit_profile_test 0x7f0c0001
 int menu main 0x7f0c0002
 int menu make_offer_test 0x7f0c0003
+=======
+int layout activity_main 0x7f030017
+int layout support_simple_spinner_dropdown_item 0x7f030018
+int menu main 0x7f0c0000
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int string abc_action_bar_home_description 0x7f060024
 int string abc_action_bar_home_description_format 0x7f060028
 int string abc_action_bar_home_subtitle_description_format 0x7f060029
@@ -630,6 +677,7 @@ int string common_signin_button_text_long 0x7f060020
 int string create_calendar_message 0x7f060005
 int string create_calendar_title 0x7f060004
 int string decline 0x7f060003
+<<<<<<< HEAD
 int string hello 0x7f060034
 int string hello_world 0x7f060037
 int string store_picture_message 0x7f060001
@@ -637,6 +685,11 @@ int string store_picture_title 0x7f060000
 int string title_activity_display_message 0x7f060036
 int string title_activity_edit_profile_test 0x7f060039
 int string title_activity_make_offer_test 0x7f060038
+=======
+int string hello_world 0x7f060034
+int string store_picture_message 0x7f060001
+int string store_picture_title 0x7f060000
+>>>>>>> 0f09996c7d99e99fd3e9343e36e696f0cf95e167
 int string wallet_buy_button_place_holder 0x7f060022
 int style AppBaseTheme 0x7f0500f0
 int style AppTheme 0x7f0500f1
