@@ -35,7 +35,10 @@
         android:ems="10"
         android:hint="First Name"
         android:singleLine="true"
-        android:width="250dp" />
+        android:width="250dp" >
+        
+        <requestFocus />
+    </EditText>
 
     <EditText
         android:id="@+id/DoBReg"
@@ -68,10 +71,8 @@
         android:ems="10"
         android:hint="Email"
         android:singleLine="true"
-        android:width="250dp" >
+        android:width="250dp" />
 
-        <requestFocus />
-    </EditText>
 
     <EditText
         android:id="@+id/lastNameReg"

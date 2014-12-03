@@ -95,4 +95,5 @@ public class LoginActivity extends Activity {
 		Intent register = new Intent(this, register.class);
 		startActivity(register);
 	}
+	
 }

@@ -16,17 +16,17 @@ public class DisplayMessageActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_display_message);
+		setContentView(R.layout.choiceofacceptreject);
 		Intent intent = getIntent(); //note this is to signify the reciev of query, other just oncreate normally
 		String message = intent.getStringExtra(CarpoolController.EXTRA_MESSAGE); // recieves the query
 		
-	    // Create the text view
-	    TextView textView = new TextView(this);
-	    textView.setTextSize(40); //Displays text
-	    textView.setText(message);
+	    // Create the text view, actually overwrite
+	   // TextView textView = new TextView(this);
+		TextView textview =(TextView) findViewById(R.id.textView1);
+		textview.setText(message);
 
-	    // Set the text view as the activity layout
-	    setContentView(textView);
+	    // Set the text view as the activity layout//if the contentview is the only onw
+	    //setContentView(textview);
 	}
 
 
@@ -54,4 +54,15 @@ public class DisplayMessageActivity extends Activity {
               return rootView;
         }
     }
-}
+ //***********************************************Intents start
+    public void goToCarpool(View view) {
+    	Intent carpoolIntent = new Intent(this, CarpoolController.class);
+    	startActivity(carpoolIntent);
+    }
+    public void goToViewProfile(View view) {
+    	Intent profileIntent = new Intent(this, ViewProfile.class);
+    	startActivity(profileIntent);
+    }
+    //***********************************************Intents end
+   }
+

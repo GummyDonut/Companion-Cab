@@ -42,6 +42,7 @@ public class chooseTwoRP extends Activity {
 			@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
+				 goToViewProfile();
 				
 			}
         	
@@ -52,5 +53,9 @@ public class chooseTwoRP extends Activity {
     private void getTripInfo(){
     	Intent tripInfoPage = new Intent(this, CarpoolController.class);
     	startActivity(tripInfoPage);
+    }
+    private void goToViewProfile() {
+    	Intent profileIntent = new Intent(this, ViewProfile.class);
+    	startActivity(profileIntent);
     }
 }

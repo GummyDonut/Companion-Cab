@@ -1,5 +1,7 @@
 package com.example.taxiapp;
 
+
+
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
@@ -24,15 +26,15 @@ import android.widget.SimpleAdapter;
 public class CarpoolController extends ActionBarActivity {
 	public final static String EXTRA_MESSAGE = "com.example.taxiapp.MESSAGE"; //query for passing data, its just required
 	 // Array of strings storing country names
-    String[] countries = new String[] {
-        "India",
-        "Pakistan",
-        "Sri Lanka",
-        "China",
-        "Bangladesh",
-        "Nepal",
-        "Afghanistan",
-        "North Korea",
+    String[] users = new String[] {
+        "Peter Hoang",
+        "Mahima",
+        "Bobb22",
+        "ninn",
+        "Jemar8",
+        "LOL",
+        "hahaha",
+        "Trolls rule this",
         "South Korea",
         "Japan"
     };
@@ -52,17 +54,17 @@ public class CarpoolController extends ActionBarActivity {
     };
  
     // Array of strings to store currencies
-    String[] currency = new String[]{
-        "Indian Rupee",
-        "Pakistani Rupee",
-        "Sri Lankan Rupee",
+    String[] destination = new String[]{
+        "India",
+        "Pakistani ",
+        "Sri Lankan",
         "Renminbi",
-        "Bangladeshi Taka",
-        "Nepalese Rupee",
+        "Bangladeshi ",
+        "Nepalese ",
         "Afghani",
-        "North Korean Won",
-        "South Korean Won",
-        "Japanese Yen"
+        "North Korea",
+        "South Korea",
+        "Japanese"
     };
 //********************************Start page intent moves*************************************** 
     //go to make offer
@@ -74,7 +76,7 @@ public class CarpoolController extends ActionBarActivity {
     
     //go to make offer
     public void goToEditProfile(View view) {
-    	Intent editIntent = new Intent(this, EditProfileTest.class);
+    	Intent editIntent = new Intent(this, EditProfile.class);
     	startActivity(editIntent);
     }
     //go to logout page //Note that the logout class here is temporary
@@ -95,8 +97,8 @@ public class CarpoolController extends ActionBarActivity {
  
         for(int i=0;i<10;i++){
             HashMap<String, String> hm = new HashMap<String,String>();
-            hm.put("txt", "Country : " + countries[i]);
-            hm.put("cur","Currency : " + currency[i]);
+            hm.put("txt", "User : " + users[i]);
+            hm.put("cur","Destination : " + destination[i]);
             hm.put("flag", Integer.toString(flags[i]) );
             aList.add(hm);
         }
@@ -161,8 +163,8 @@ public class CarpoolController extends ActionBarActivity {
 	}
 	private void intentpass(int positionlocal){//must be a private function // will be passing profile info and name
 		Intent intent = new Intent(this, DisplayMessageActivity.class);
-		TextView destination =(TextView) findViewById(R.id.cur);
-		  String message = countries[positionlocal]+"Testing "+destination.getText().toString();
+		//TextView carpool =(TextView) findViewById(R.id.cur);
+		  String message = "Would you like to Carpool With "+users[positionlocal]+"TO: "+ destination[positionlocal];
 		  intent.putExtra(EXTRA_MESSAGE, message);
 		  startActivity(intent);
 	}
