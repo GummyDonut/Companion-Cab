@@ -179,5 +179,16 @@ ViewProfile.Java
         android:layout_above="@+id/chobbies"
         android:layout_toRightOf="@+id/logOut" />
 
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/cdob"
+        android:text="Rate User"
+        android:onClick="goToRate"
+        
+        />
+
 </RelativeLayout>
 </ScrollView>

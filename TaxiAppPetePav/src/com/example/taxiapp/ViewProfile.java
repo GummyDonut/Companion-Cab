@@ -115,4 +115,8 @@ public class ViewProfile extends Activity {
     	Intent logoutIntent = new Intent(this, LoginActivity.class);
     	startActivity(logoutIntent);
     }
+    public void goToRate(View view) {
+    	Intent rateIntent = new Intent(this, RatingUser.class);
+    	startActivity(rateIntent);
+    }
 }
